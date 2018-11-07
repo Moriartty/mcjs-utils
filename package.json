@@ -1,6 +1,6 @@
 {
   "name": "mcjs-utils",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "js utils",
   "main": "index.js",
   "scripts": {

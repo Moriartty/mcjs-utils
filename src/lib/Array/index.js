@@ -1,5 +1,9 @@
-var utils = {};
-utils.findMixed = function(){
+let array = {};
+
+/*
+find repeated elements in several arrays
+*/
+array.findRepeatedElements = function(){
 	var tmp = [];
 	for(var i=0;i<arguments.length;i++){
 		tmp = tmp.concat(arguments[i]);
@@ -12,4 +16,5 @@ utils.findMixed = function(){
 	return mixed;
 }
 
-export default utils;
+
+export default array;
